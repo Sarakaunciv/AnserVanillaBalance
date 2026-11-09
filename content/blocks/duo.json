@@ -1,0 +1,78 @@
+{
+	"range": 480,
+	"inaccuracy": 0,
+	"ammoTypes":{
+		"copper": {
+			"type": BasicBulletType,
+			"backColor": a08000,
+			"frontColor": a08000,
+			"mixColorFrom": a08000,
+			"mixColorTo": a08000,
+			"width": 8,
+			"height": 8,
+			
+			"lifetime": 55,
+			"speed": 10,
+			"damage": 10,
+			"splashDamageRadius": -1,
+			"splashDamage": 0,
+			
+			"hitSize": 16,
+			"buildingDamageMultiplier": 0,
+			"ammoMultiplier": 30,
+			
+			"rangeChange": 0,
+			"reloadMultiplier": 1,
+			"homingPower": 0,
+			"homingRange": 80,
+		},
+		"graphite": {
+			"type": BasicBulletType,
+			"backColor": a0a0ff,
+			"frontColor": a0a0ff,
+			"mixColorFrom": a0a0ff,
+			"mixColorTo": a0a0ff,
+			"width": 8,
+			"height": 8,
+			
+			"lifetime": 55,
+			"speed": 10,
+			"damage": 20,
+			"splashDamageRadius": -1,
+			"splashDamage": 0,
+			
+			"hitSize": 16,
+			"buildingDamageMultiplier": 0,
+			"ammoMultiplier": 30,
+			
+			"rangeChange": 48,
+			"reloadMultiplier": 0.8f,
+			"homingPower": 0,
+			"homingRange": 80,
+		},
+		"silicon": {
+			"type": BasicBulletType,
+			"backColor": 808080,
+			"frontColor": 808080,
+			"mixColorFrom": 808080,
+			"mixColorTo": 808080,
+			"width": 8,
+			"height": 8,
+			
+			"lifetime": 55,
+			"speed": 10,
+			"damage": 15,
+			"splashDamageRadius": -1,
+			"splashDamage": 0,
+			
+			"hitSize": 16,
+			"buildingDamageMultiplier": 0,
+			"ammoMultiplier": 30,
+			
+			"rangeChange": 48,
+			"reloadMultiplier": 1.5f,
+			"homingPower": 0.3,
+			"homingRange": 80,
+		}
+	}
+}

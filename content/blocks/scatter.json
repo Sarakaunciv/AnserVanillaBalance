@@ -1,0 +1,54 @@
+{
+	"range": 480,
+	"inaccuracy": 0,
+	"ammoTypes":{
+		"scrap": {
+			"type": FlakBulletType,
+			"backColor": a08000,
+			"frontColor": a08000,
+			"mixColorFrom": a08000,
+			"mixColorTo": a08000,
+			"width": 8,
+			"height": 8,
+			
+			"lifetime": 55,
+			"speed": 10,
+			"damage": 10,
+			"splashDamageRadius": -1,
+			"splashDamage": 0,
+			
+			"hitSize": 16,
+			"buildingDamageMultiplier": 0,
+			"ammoMultiplier": 30,
+			
+			"rangeChange": 0,
+			"reloadMultiplier": 1,
+			"homingPower": 0,
+			"homingRange": 80,
+		},
+		"lead": {
+			"type": FlakBulletType,
+			"backColor": a08000,
+			"frontColor": a08000,
+			"mixColorFrom": a08000,
+			"mixColorTo": a08000,
+			"width": 8,
+			"height": 8,
+			
+			"lifetime": 55,
+			"speed": 10,
+			"damage": 25,
+			"splashDamageRadius": 15,
+			"splashDamage": 50,
+			
+			"hitSize": 16,
+			"buildingDamageMultiplier": 0,
+			"ammoMultiplier": 30,
+			
+			"rangeChange": 0,
+			"reloadMultiplier": 1,
+			"homingPower": 0,
+			"homingRange": 80,
+		},
+	}
+}
